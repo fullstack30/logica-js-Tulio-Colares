@@ -1,4 +1,7 @@
-function hello(para="World") {
-    console.log("Hello, " + para + "!")
-}
+function hello(nome = "World") {
+    if (typeof nome !== "string") {
+        nome = "World";
+    }
 
+    return "Hello, " + nome + "!";
+}
