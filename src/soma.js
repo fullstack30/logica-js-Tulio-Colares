@@ -9,5 +9,3 @@ function soma(a, b) {
     }
     return numA + numB
 }
-
-console.log(soma("1.8" , 2.1))
