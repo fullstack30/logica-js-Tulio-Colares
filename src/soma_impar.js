@@ -3,9 +3,9 @@ function soma_impar(numInt) {
         return numInt
     }
     if (numInt < 0) {
-        return "Função aceita apenas números inteiros positivos"
+        return "Função aceita apenas números inteiros positivos."
     } else if (Number.isInteger(numInt == "false") ) {
-        return "Função aceita apenas números inteiros positivos"
+        return "Função aceita apenas números inteiros positivos."
     }
 
         let soma = 1
