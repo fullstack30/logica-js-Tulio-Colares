@@ -17,5 +17,3 @@ function soma_impar(numInt) {
         }
         return soma
 }
-
-console.log(soma_impar(-1.9))
