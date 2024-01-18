@@ -3,7 +3,7 @@ function soma_impar(numInt) {
         return numInt
     } else if (numInt < 0) {
         return "Função aceita apenas números inteiros positivos."
-    } else if (Number.isInteger(numInt) !== "true" ) {
+    } else if (Number.isInteger(numInt) == false ) {
         return "Função aceita apenas números inteiros positivos."
     }
 
@@ -17,3 +17,5 @@ function soma_impar(numInt) {
         }
         return soma
 }
+
+console.log(soma_impar(-1.9))
