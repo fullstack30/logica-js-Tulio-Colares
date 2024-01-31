@@ -13,8 +13,11 @@ function vogais(texto = "") {
             texto[i] == "O"|| texto[i] == "o" || 
             texto[i] == "U"|| texto[i] == "u" ||
             texto[i] == "Á"|| texto[i] == "á" ||
+            texto[i] == "Â"|| texto[i] == "â" ||
             texto[i] == "Ó"|| texto[i] == "ó" ||
+            texto[i] == "Ô"|| texto[i] == "ô" ||
             texto[i] == "É"|| texto[i] == "é" ||
+            texto[i] == "Ê"|| texto[i] == "ê" ||
             texto[i] == "Í"|| texto[i] == "í" ||
             texto[i] == "Ú"|| texto[i] == "ú") {
             contador++
