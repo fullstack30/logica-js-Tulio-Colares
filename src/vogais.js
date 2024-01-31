@@ -7,7 +7,11 @@ function vogais(texto = "") {
     }
     let contador = 0
     for (let i = 0; i <= texto.length; i++) {
-        if (texto[i] == "a" || texto[i] == "e" || texto[i] == "i" || texto[i] == "o" || texto[i] == "u") {
+        if (texto[i] == "A"|| texto[i] == "a" || 
+            texto[i] == "E"|| texto[i] == "e" || 
+            texto[i] == "I"|| texto[i] == "i" || 
+            texto[i] == "O"|| texto[i] == "o" || 
+            texto[i] == "U"|| texto[i] == "u") {
             contador++
         }
     }
