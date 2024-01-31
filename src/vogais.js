@@ -23,5 +23,3 @@ function vogais(texto = "") {
     }
     return contador
 }
-
-console.log(vogais("pneumoultramicroscopicsilicovulcanoconiótico"))
