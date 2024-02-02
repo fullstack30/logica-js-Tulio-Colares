@@ -1,5 +1,5 @@
 function fatorial(num) {
-    var result = num;
+    let result = num;
     if (num === 0 || num === 1) 
       return 1; 
     while (num > 1) { 
@@ -8,4 +8,4 @@ function fatorial(num) {
     }
     return result;
   }
-  console.log(fatorial(6));
+ 
