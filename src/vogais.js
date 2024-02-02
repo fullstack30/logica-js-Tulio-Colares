@@ -1,5 +1,5 @@
-function vogais(texto = "") {
-    if (typeof texto != 'string'){
+function vogais(texto) {
+    if (typeof texto != 'string' || texto == null){
         return "Função aceita apenas string como argumento." 
     }
     if (texto == ""){
@@ -20,3 +20,4 @@ function vogais(texto = "") {
     return contador
 }
 
+console.log(vogais())
