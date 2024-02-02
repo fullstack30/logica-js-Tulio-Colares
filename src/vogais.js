@@ -19,5 +19,3 @@ function vogais(texto) {
     contador--
     return contador
 }
-
-console.log(vogais())
