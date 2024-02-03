@@ -13,4 +13,3 @@ function fatorial(num) {
     return result;
   }
 
-  console.log(fatorial('texto'))
