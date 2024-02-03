@@ -1,6 +1,6 @@
 function fatorial(num) {
     num = parseFloat(num)
-    if (typeof num == 'NaN' || num == null || num < 0) {
+    if (num == null || num < 0 || isNaN(num) ) {
         return "Função deve receber um argumento do tipo inteiro positivo."
     }
     let result = num;
@@ -12,3 +12,5 @@ function fatorial(num) {
     }
     return result;
   }
+
+  console.log(fatorial('texto'))
