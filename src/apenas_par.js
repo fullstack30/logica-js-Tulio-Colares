@@ -24,5 +24,3 @@ function apenas_par(num) {
     }
     return lista
 }
-
-console.log(apenas_par("10"))
