@@ -8,7 +8,7 @@ function apenas_par(num) {
     if (num < 0) {
         while (num <= 0) {
             if (num % 2 == 0) {
-                lista.push(num)
+                lista.unshift(num)
             }
             num++
         }
