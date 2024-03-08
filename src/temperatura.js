@@ -6,7 +6,7 @@ function temperatura(imp, out) {
     }
     if(imp.slice(-1) == "c" || imp.slice(-1) == "C") {
         if (out.toUpperCase() == imp.slice(-1).toUpperCase() ) {
-            return "Temperatura inválida!"
+            return `${res}`
         } else {
             imp = imp.slice(0, -1)
             let res = (imp * 9/5) + 32 
@@ -15,9 +15,7 @@ function temperatura(imp, out) {
         
     } if (imp.slice(-1) == "f" || imp.slice(-1) == "F") {
         if (out.toUpperCase() == imp.slice(-1).toUpperCase() ) {
-            return "Temperatura inválida!"
-        } else if (out.toUpperCase() == imp.slice(-1).toUpperCase()) {
-            return "Temperatura inválida!"
+            return `${res}`
         } else {
             imp = imp.slice(0, -1)
             let res = (imp - 32) * 5/9  
