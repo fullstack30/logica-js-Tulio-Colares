@@ -13,4 +13,3 @@ function temperatura(imp, out) {
     }
 }
 
-temperatura('20d')
